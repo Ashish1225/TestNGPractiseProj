@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+  <test name="NxtGenAI Module">
+    <classes>
+      <class name="com.nxtgenai.testngannotation.RegisterDemo"/>
+      <class name="com.nxtgenai.testngannotation.BankingApplicationAssertValidation"/>     
+      <class name="com.nxtgenai.testngannotation.BankingApplicationSoftDependency"/>   
+      <class name="com.nxtgenai.testngannotation.BankingApplicationHardDependency"/>
+      <class name="com.nxtgenai.beforeandafterannotation.ScreenNavigationMethod"/>
+      <class name="com.nxtgenai.beforeandafterannotation.ScreenNavigationClass"/>
+    </classes>
+  </test> <!-- NxtGenAI Module -->
+</suite> <!-- Automation Suite -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="ParameterDemo at test level">
+		<parameter name="automobilename" value="Audi"></parameter>
+		<classes>
+			<class
+				name="com.nxtgenai.crossbrowsertesting.AutoMobileParameterDemo" />
+		</classes>
+
+	</test> <!-- ParameterDemo at test level -->
+
+	<test name="ParameterDemo at test level1">
+		<parameter name="softwarename" value="Google"></parameter>
+		<classes>
+			<class
+				name="com.nxtgenai.crossbrowsertesting.SoftwareCompanyParameterDemo" />
+		</classes>
+
+	</test> <!-- ParameterDemo at test level -->
+</suite> <!-- Suite -->

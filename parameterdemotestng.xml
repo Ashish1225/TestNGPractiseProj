@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="i" value="190"></parameter>
+	<parameter name="j" value="100"></parameter>
+	<test name="ParameterDemo at Suite level">
+		<classes>
+			<class
+				name="com.nxtgenai.crossbrowsertesting.TestNGParameterDemo"></class>
+			
+		</classes>
+	</test> <!-- ParameterDemo -->
+	<test name="ParameterDemo1 at suite level">
+		<classes>
+			<class
+				name="com.nxtgenai.crossbrowsertesting.TestNGParameterDemo2"></class>
+		</classes>
+	</test> <!-- ParameterDemo -->
+</suite> <!-- Suite -->

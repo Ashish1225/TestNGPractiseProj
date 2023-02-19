@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Functional Batch Test">
+  <test  name="Functional">
+    <classes>
+      <class name="com.nxtgenai.grouping.PaymentTest"/>
+      <class name="com.nxtgenai.grouping.ProductPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Functional Batch Test -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Selenium Search">
+		<parameter name="searchKey" value="Selenium"></parameter>
+		<classes>
+			<class
+				name="com.nxtgenai.crossbrowsertesting.TestNGParameterGoogleSearch" />
+		</classes>
+	</test> <!-- GooglSearch -->
+	<test name="Java Search">
+		<parameter name="searchKey" value="Java"></parameter>
+		<classes>
+			<class
+				name="com.nxtgenai.crossbrowsertesting.TestNGParameterGoogleSearch" />
+		</classes>
+	</test> <!-- GooglSearch -->
+
+</suite> <!-- Suite -->

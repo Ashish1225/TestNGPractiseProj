@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite" parallel="tests">
+	<test name="Chrome Browser">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="url" value="https://nxtgenaiacademy.com/"></parameter>
+		<classes>
+			<class name="com.nxtgenai.registerdemotestng.RegisterDemoTestNG" />
+		</classes>
+	</test> <!-- RegisterDemo -->
+
+	<test name="MicroSoft Edge Browser">
+		<parameter name="browser" value="edge"></parameter>
+		<parameter name="url" value="https://nxtgenaiacademy.com/"></parameter>
+		<classes>
+			<class name="com.nxtgenai.registerdemotestng.RegisterDemoTestNG" />
+		</classes>
+	</test> <!-- RegisterDemo -->
+</suite> <!-- Automation Suite -->
